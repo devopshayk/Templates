@@ -1,19 +1,28 @@
 body {
-    font-family: 'Gotham Pro';
+font-family: 'Gotham Pro';
+margin: 0;
 }
 
 
-html {
-overflow: hidden;
+html{
+    overflow-x: hidden;
 }
 
+.conteiner {
+    max-width: 1920px;
+width: 100%;
+}
 
+.intro {
+    width: 100%;
+height: 100vh;
+}
 
 
 .multiteach {
- font-size:32px ;
-margin: 40px 200px;
-font-weight: 400;
+    font-size:32px ;
+    margin: 40px 200px;
+    font-weight: 400;
 }
 
 .teach {
@@ -22,11 +31,11 @@ font-weight: 400;
 
 
 .nav {
-font-size: 15px;
-font-weight:bold ;
-margin: 0 210px;
-vertical-align: top;
-padding: 0 24px;
+    font-size: 15px;
+    font-weight:bold ;
+    margin: 0 210px;
+    vertical-align: top;
+    padding: 0 24px;
 }
 
 .links {
@@ -39,22 +48,22 @@ padding: 0 24px;
 
 li {
     display: inline-block;
-list-style: none;
+    list-style: none;
 
 }
 
 .header {
- display: flex;
-justify-content: space-between;
-align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .links:hover {
     background-color: #5364FF;
-color: #fff;
-border-radius:300px;
-padding: 12px 18px;
-transition: .5s;
+    color: #fff;
+    border-radius:300px;
+    padding: 12px 18px;
+    transition: .5s;
 }
 
 .active {
@@ -86,8 +95,7 @@ transition: .5s;
 }
 
 .tch{
-
-color: #5364FF;
+    color: #5364FF;
 }
 
 
@@ -106,13 +114,12 @@ color: #5364FF;
 .all5 {
     margin: 0 205px;
     font-size: 22px;
-
 }
 
 
 .hover{
-text-decoration: none;
-color: #252525;
+    text-decoration: none;
+    color: #252525;
 }
 
 
@@ -121,24 +128,266 @@ color: #252525;
 }
 
 .hover2 {
-padding-left: 24px;
-color: #252525;
-transition: .2s;
-text-decoration: none;
+    padding-left: 24px;
+    color: #252525;
+    text-decoration: none;
+}
+
+.img  img{
+    width: 1300px;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    margin:50px 670px;
+    transform: rotate(18deg);
+    background: none;
+    z-index: -1;
+}
+
+
+.intro2 {
+    width: 100% ;
+    height: 100vh;
+position: relative;
+}
+
+
+.section {
+    background:linear-gradient(120deg, #3A4EFF 0%, #913AFF 100%);
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 160px;
+    font-family: 'Neue Machina';
+    text-align: center;
+    padding-top:350px ;
+}
+
+
+
+.onas {
+    font-size: 90px;
+    font-family: 'Neue Machina';
+    font-weight: bold;
+    padding: 150px  0 0 200px;
+    position: relative;
+}
+
+
+
+
+
+
+.blocks{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin:300px 200px;
 
 }
 
-.img img {
-width: 1300px;
-height: 1000px;
-top: 0;
-left: 0;
-bottom: 0;
-position: absolute;
-margin:50px 670px;
-transform: rotate(18deg);
-background: none;
-z-index: -1;
+
+
+.one {
+    width: 51px;
+    height: 155px;
+    background-color:#EBEEF2;
+    border-radius: 4px;
+    position: absolute;
+    left: 200px;
+    margin-top: 500px;
+    transition: .5s;
 }
 
+
+
+
+.two {
+    width: 52px;
+    height: 218px;
+    background-color: #EBEEF2;
+    border-radius: 4px;
+    position: absolute;
+    left: 265px;
+    margin-top: 440px;
+    transition: .5s;
+}
+
+
+.tree {
+    width: 52px;
+    height: 275px;
+    background-color: #EBEEF2;
+    border-radius: 4px;
+    position: absolute;
+    left: 330px;
+    margin-top: 385px;
+    transition: .5s;
+}
+
+
+.for {
+    width: 51px;
+    height: 155px;
+    background-color:#EBEEF2;
+    border-radius: 4px;
+    position: absolute;
+    left: 395px;
+    margin-top: 510px;
+    transition: .5s;
+}
+
+
+.five {
+    width: 51px;
+    height: 358px;
+    background-color:#EBEEF2;
+    border-radius: 4px;
+    left: 460px;
+    margin-top: 310px;
+    position: absolute;
+    transition: .5s;
+}
+
+
+.one:hover, .two:hover,.tree:hover,.for:hover, .five:hover {
+    background-color:#5364FF ;
+    transition: .5s all;
+    box-shadow:0, 15px,
+    rgba(83, 100, 255, 0.4) ;
+}
+
+.nash {
+    font-size:20px ;
+    background-color:#5364FF ;
+    padding: 10px 17px;
+    display: inline-block;
+    border-radius: 8px; 
+    color: #fff;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.nash:hover{
+    background-color: #3A4EFF;
+    transition: .5s;
+}
+
+
+
+.klient {
+    margin-left: 400px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+
+.shnur3 img{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 380px;
+
+
+}
+
+
+
+.klient::after{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 40px;
+    left: 75px;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 13px solid #5364FF;
+}
+
+
+.nkarmkar {
+    width:154px ;
+    height: 36px;
+    background-color: #EBEEF2;
+    border-radius: 300px;
+    padding: 5px;
+    display: inline-block;
+}
+
+
+.komp {
+    text-align: center;
+    position: absolute;
+    padding: 7px ;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.allnkar {
+    position: absolute;
+    top: 310px;
+    left: 1150px;
+    padding: 10px;
+}
+
+
+.memoj img {
+    z-index: -1;
+    margin-left: 5px;
+    height: 35px;
+    background: #e3e3e3;
+    border-radius: 300px;
+   
+}
+
+
+
+.cel {
+    width: 390px;
+    height: 80px;
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+.pos {
+    position: absolute;
+    left: 1150px;
+    top:500px;
+}
+
+
+.zabota {
+    font-size:20px ;
+    color: #252525;
+    opacity: .5;
+    font-weight: bold;
+    padding-top: 17px;
+}
+
+.kapsula {
+    background-color:#5364FF ;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    border-radius: 300px;
+    padding: 16px 18px;
+    margin-top: 25px;
+    transition: .3s;
+}
+
+
+.kapsula:hover{
+    background-color: #3A4EFF;
+    transition: .3s;
+}
 
