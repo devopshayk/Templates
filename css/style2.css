@@ -87,7 +87,8 @@ li {
 
 .img img {
     position: absolute;
-    margin:  50px 0 0 200px;
+    margin: 50px 0 0 200px;
+    z-index: 1;
 }
 
 
@@ -100,22 +101,30 @@ li {
 .text {
     margin: 300px 0 0 300px;
     position: absolute;
+    z-index: 21;
 }
 
 .bold {
     font-weight: bold;
 }
 
-.btn {
+.btnn {
     text-decoration: none;
     color: #fff;
     font-size: 20px;
     background-color: #b30004;
     padding: 15px 40px;
-    border-radius: 50px;
+    border-radius: 50px;    
+    transition: .2s;
 }
 
 .btn2 {
-   margin:550px 0 0 300px ;
+    margin:550px 0 0 300px ;
+    z-index: 1;
+    position: absolute;
 }
 
+.btnn:hover {
+    opacity: .8;
+    transition: .2s;
+}
