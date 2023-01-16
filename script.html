@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <select  id="colors" size="2">
+        <option value="red">RED</option>
+        <option value="green">GREEN</option>
+        <option value="blue">BLUE</option>
+        <option value="orange">ORANGE</option>
+    </select>
+    <script>
+    colors.onchange = changeBgColor;
+    function changeBgColor() {
+    document.body.style.background = this.value;
+    }
+    </script>
+    
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</body>
+</html>
