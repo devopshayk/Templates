@@ -1,0 +1,171 @@
+body {
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+}
+
+.yellow {
+    width: 1640px;
+    height: 900px; 
+    background-color:rgba(255, 234, 47, 1);
+    margin-left: 280px;
+    z-index: 1;
+}
+
+
+.eng {
+    padding: 45px;
+    color: #fff;
+    background-color: rgba(206, 0, 2, 1);
+    font-size: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .3s ease;
+}
+
+
+.eng:hover {
+    background-color: rgba(254, 0, 2, 1);
+    transition: .3s ease;
+}
+
+.eng1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+li  {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+
+.links {
+    color: rgba(0, 0, 0, 1) ;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 20px;
+    transition: .3s ease;
+}
+
+
+.nav {
+   margin-right: 90px;
+}
+
+
+.links:hover {
+    color: rgba(255, 0, 0, 1) ;
+    transition: .3s ease;
+}
+
+
+
+.dino img {
+    position:absolute;
+    top: 140px;
+    left: 1100px;
+}
+
+
+p {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 1);
+    width: 560px;
+    position: absolute;
+    top: 630px;
+    padding-left: 120px;
+}
+
+
+h1 {
+    font-size: 72px;
+    font-weight: bold;
+    width: 1100px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 90px;
+    top: 325px;
+}
+
+
+.more {
+    font-size: 22px;
+    line-height: 2rem;
+    color: #fff;
+    background-color: rgba(206, 0, 2, 1);
+    display: inline-block;
+    padding: 30px 5px 40px 15px;
+    transition: .3s ease;
+}
+
+
+.eng2 {
+    position: absolute;
+    left: 220px;
+    top:690px ;
+}
+
+
+.more:hover {
+    background-color: rgba(254, 0, 2, 1);
+    transition: .3s ease;
+}
+
+.linia img {
+    position: absolute;
+    top: 100px;
+    left: 17px;
+}
+
+
+
+
+.heart img {
+    position: absolute;
+    top: 35px;
+    left: 80px;
+}
+
+
+.nav2 {
+    width: 100%;
+    height: 70px;
+    background-color:#EFEFEF ;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    margin-top:20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.links2 {
+    text-decoration: none;
+    padding:0 35px;
+    color:rgba(126, 126, 126, 1) ;
+    font-size: 16px;
+    transition: .3s ease;
+}
+
+
+.links2:hover {
+    opacity: .8;
+    transition: .3s ease;
+}
